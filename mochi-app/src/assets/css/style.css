@@ -1,0 +1,348 @@
+
+[type='text']:focus, input:where(:not([type])):focus, [type='email']:focus, [type='url']:focus, [type='password']:focus, [type='number']:focus, [type='date']:focus, [type='datetime-local']:focus, [type='month']:focus, [type='search']:focus, [type='tel']:focus, [type='time']:focus, [type='week']:focus, [multiple]:focus, textarea:focus, select:focus {
+  --tw-ring-color: none !important;
+  border-color: none !important;
+}
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+}
+
+.warp__placeholder{
+  position: absolute;
+  color: transparent;
+  font-size: .1px;
+}
+
+.warp {
+  width: 48.75rem;
+  height: 28.125rem;
+  font: normal 4.125rem/1 ultra;
+  font-display: swap;
+  color: white;
+}
+
+[class*='warp__'] {
+  display: block;
+  position: absolute;
+}
+
+.titles{
+  font-size: 4rem;
+  font-family: fantasy;
+}
+.circulo{
+    position: absolute;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    height: 140px;
+    font-size: 30px;
+    width: 20rem;
+    color: rgb(140, 37, 37);
+    text-align: center;
+    
+}
+
+.navbar-nav .show>.nav-link, .navbar-nav .nav-link.active {
+  color: #936036;
+  font-weight: bold;
+}
+
+.scale-up-top{animation:scale-up-top 0.8s; } @keyframes scale-up-top{0%{transform:scale(.5);transform-origin:center top}100%{transform:scale(1);transform-origin:center top}}
+
+.rotate-vertical-right{animation:rotate-vertical-right 0.8s} @keyframes rotate-vertical-right{0%{transform:rotateY(0);transform-origin:right}100%{transform:rotateY(-360deg);transform-origin:right}}
+
+
+/* .warp__0 {
+  transform-origin: 50% 2.75rem;
+  transform: translate(1.974rem,9.058rem) rotate(-1.303665rad);
+}
+
+.warp__1 {
+  transform-origin: 50% 2.75rem;
+  transform: translate(2.884rem,6.793rem) rotate(-1.16272rad);
+}
+
+.warp__2 {
+  transform-origin: 50% 2.75rem;
+  transform: translate(3.905rem,4.684rem) rotate(-0.976958rad);
+}
+
+.warp__3 {
+  transform-origin: 50% 2.75rem;
+  transform: translate(5.589rem,2.869rem) rotate(-0.762998rad);
+}
+
+.warp__4 {
+  transform-origin: 50% 2.75rem;
+  transform: translate(7.425rem,1.844rem) rotate(-0.617652rad);
+}
+
+.warp__5 {
+  transform-origin: 50% 2.75rem;
+  transform: translate(8.235rem,1.019rem) rotate(-0.487228rad);
+}
+
+.warp__6 {
+  transform-origin: 50% 2.75rem;
+  transform: translate(10.087rem,-0.061rem) rotate(-0.29322rad);
+}
+
+.warp__7 {
+  transform-origin: 50% 2.75rem;
+  transform: translate(13.711rem,-0.707rem) rotate(-0.148574rad);
+}
+
+.warp__8 {
+  transform-origin: 50% 2.75rem;
+  transform: translate(16.089rem,-0.947rem) rotate(-0.0698rad);
+}
+
+.warp__9 {
+  transform-origin: 50% 2.75rem;
+  transform: translate(18.252rem,-1.018rem) rotate(0.051931rad);
+}
+
+.warp__10 {
+  transform-origin: 50% 2.75rem;
+  transform: translate(20.747rem,-0.71rem) rotate(0.299073rad);
+}
+
+.warp__11 {
+  transform-origin: 50% 2.75rem;
+  transform: translate(21.679rem,-0.08rem) rotate(0.509924rad);
+}
+
+.warp__12 {
+  transform-origin: 50% 2.75rem;
+  transform: translate(23.255rem,1.364rem) rotate(0.766237rad);
+}
+
+.warp__13 {
+  transform-origin: 50% 2.75rem;
+  transform: translate(25.176rem,3.295rem) rotate(0.955572rad);
+}
+
+.warp__14 {
+  transform-origin: 50% 2.75rem;
+  transform: translate(27.281rem,5.362rem) rotate(1.083578rad);
+}
+
+.warp__15 {
+  transform-origin: 50% 2.75rem;
+  transform: translate(28.454rem,7.538rem) rotate(1.17961rad);
+}
+
+.warp__16 {
+  transform-origin: 50% 2.75rem;
+  transform: translate(29.191rem,9.712rem) rotate(1.255121rad);
+}
+
+.warp__17 {
+  transform-origin: 50% 2.75rem;
+  transform: translate(29.105rem,11.65rem) rotate(1.313653rad);
+}
+
+.warp__18 {
+  transform-origin: 50% 2.75rem;
+  transform: translate(29.734rem,13.951rem) rotate(1.351291rad);
+}
+.warp__19 {
+  transform-origin: 50% 2.75rem;
+  transform: translate(29.734rem,15.951rem) rotate(1.351291rad);
+}
+.warp__20 {
+  transform-origin: 50% 2.75rem;
+  transform: translate(29.734rem,17.951rem) rotate(1.351291rad);
+}
+.warp__21 {
+  transform-origin: 50% 2.75rem;
+  transform: translate(29.734rem,19.951rem) rotate(1.351291rad);
+} */
+
+
+
+.warp__0 {
+  transform-origin: 50% 2.75rem;
+  transform: translate(6.721rem,15.056rem) rotate(-1.921228rad);
+}
+
+.warp__1 {
+  transform-origin: 50% 2.75rem;
+  transform: translate(6.476rem,12.45rem) rotate(-1.677641rad);
+}
+
+.warp__2 {
+  transform-origin: 50% 2.75rem;
+  transform: translate(6.726rem,10.432rem) rotate(-1.560047rad);
+}
+
+.warp__3 {
+  transform-origin: 50% 2.75rem;
+  transform: translate(6.905rem,8.862rem) rotate(-1.473115rad);
+}
+
+.warp__4 {
+  transform-origin: 50% 2.75rem;
+  transform: translate(7.107rem,7.415rem) rotate(-1.389079rad);
+}
+
+.warp__5 {
+  transform-origin: 50% 2.75rem;
+  transform: translate(7.445rem,5.957rem) rotate(-1.295852rad);
+}
+
+.warp__6 {
+  transform-origin: 50% 2.75rem;
+  transform: translate(7.635rem,4.18rem) rotate(-1.163458rad);
+}
+
+.warp__7 {
+  transform-origin: 50% 2.75rem;
+  transform: translate(9.048rem,2.649rem) rotate(-1.024841rad);
+}
+
+.warp__8 {
+  transform-origin: 50% 2.75rem;
+  transform: translate(9.485rem,1.33rem) rotate(-0.879071rad);
+}
+
+.warp__9 {
+  transform-origin: 50% 2.75rem;
+  transform: translate(10.955rem,-0.27rem) rotate(-0.654511rad);
+}
+
+.warp__10 {
+  transform-origin: 50% 2.75rem;
+  transform: translate(13.065rem,-1.492rem) rotate(-0.425029rad);
+}
+
+.warp__11 {
+  transform-origin: 50% 2.75rem;
+  transform: translate(15.273rem,-2.197rem) rotate(-0.241411rad);
+}
+
+.warp__12 {
+  transform-origin: 50% 2.75rem;
+  transform: translate(17.288rem,-2.54rem) rotate(-0.096216rad);
+}
+
+.warp__13 {
+  transform-origin: 50% 2.75rem;
+  transform: translate(19.485rem,-2.569rem) rotate(0.112643rad);
+}
+
+.warp__14 {
+  transform-origin: 50% 2.75rem;
+  transform: translate(21.75rem,-2.014rem) rotate(0.387453rad);
+}
+
+.warp__15 {
+  transform-origin: 50% 2.75rem;
+  transform: translate(23.517rem,-0.867rem) rotate(0.623904rad);
+}
+
+.warp__16 {
+  transform-origin: 50% 2.75rem;
+  transform: translate(25.667rem,0.467rem) rotate(0.788198rad);
+}
+
+.warp__17 {
+  transform-origin: 50% 2.75rem;
+  transform: translate(26.568rem,1.813rem) rotate(0.909392rad);
+}
+
+.warp__18 {
+  transform-origin: 50% 2.75rem;
+  transform: translate(27.796rem,3.317rem) rotate(1.019906rad);
+}
+
+.warp__19 {
+  transform-origin: 50% 2.75rem;
+  transform: translate(28.407rem,5.093rem) rotate(1.134167rad);
+}
+
+.warp__20 {
+  transform-origin: 50% 2.75rem;
+  transform: translate(29.362rem,7.121rem) rotate(1.257492rad);
+}
+
+.warp__21 {
+  transform-origin: 50% 2.75rem;
+  transform: translate(30.093rem,8.796rem) rotate(1.362022rad);
+}
+
+.warp__22 {
+  transform-origin: 50% 2.75rem;
+  transform: translate(30.046rem,10.549rem) rotate(1.481571rad);
+}
+
+.warp__23 {
+  transform-origin: 50% 2.75rem;
+  transform: translate(29.924rem,12.792rem) rotate(-4.61858rad);
+}
+
+.warp__24 {
+  transform-origin: 50% 2.75rem;
+  transform: translate(30.248rem,14.463rem) rotate(-4.44451rad);
+}
+
+.warp__25 {
+  transform-origin: 50% 2.75rem;
+  transform: translate(29.192rem,15.93rem) rotate(-4.249298rad);
+}
+
+.warp__26 {
+  transform-origin: 50% 2.75rem;
+  transform: translate(28.532rem,17.391rem) rotate(-3.996281rad);
+}
+
+.warp__27 {
+  transform-origin: 50% 2.75rem;
+  transform: translate(26.675rem,18.62rem) rotate(-3.717055rad);
+}
+
+.warp__28 {
+  transform-origin: 50% 2.75rem;
+  transform: translate(24.775rem,19.544rem) rotate(-3.434017rad);
+}
+
+.warp__29 {
+  transform-origin: 50% 2.75rem;
+  transform: translate(22.063rem,19.962rem) rotate(-3.212283rad);
+}
+
+.warp__30 {
+  transform-origin: 50% 2.75rem;
+  transform: translate(19.41rem,19.905rem) rotate(-3.04132rad);
+}
+
+.warp__31 {
+  transform-origin: 50% 2.75rem;
+  transform: translate(17.126rem,19.527rem) rotate(-2.935879rad);
+}
+
+.warp__32 {
+  transform-origin: 50% 2.75rem;
+  transform: translate(15.176rem,19.006rem) rotate(-2.865069rad);
+}
+
+.warp__33 {
+  transform-origin: 50% 2.75rem;
+  transform: translate(13.795rem,18.491rem) rotate(-2.819062rad);
+}
+
+.warp__34 {
+  transform-origin: 50% 2.75rem;
+  transform: translate(11.427rem,17.796rem) rotate(-2.773815rad);
+}
+
+/* ----------------------------------------------
+  Generated by AnimatiSS
+  Licensed under FreeBSD License
+  URL: https://xsgames.co/animatiss
+  Twitter: @xsgames_
+---------------------------------------------- */
+
+.tracking-out-expand-forward-top{animation:tracking-out-expand-forward-top 0.4s linear both} @keyframes tracking-out-expand-forward-top{0%{transform:translateZ(0) translateY(0);opacity:1}60%{opacity:.8}100%{letter-spacing:1em;transform:translateZ(300px) translateY(-200px);opacity:0}}
